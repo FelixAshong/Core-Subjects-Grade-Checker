@@ -70,7 +70,9 @@ Before running the application, ensure you have the following prerequisites inst
    git clone https://github.com/your-username/Core-Subjects-Grade-Checker.git
 
 2. Navigate to the project directory:
+ ```bash
 cd Core-Subjects-Grade-Checker
+ ```
 
 ## Usage
 Open the index.html file in your web browser. 🌐
