@@ -1,0 +1,61 @@
+.container{
+    width: 540px;
+    margin: 0 auto;
+}
+.container h2{
+    text-align: center
+}
+.grade-point-body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    border: 1px solid;
+    height: 500px;
+}
+.input fieldset{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+
+}
+.input fieldset input, label, button{
+    display: block;
+    line-height: 30px;
+    margin: 2px 5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+.input button{
+    background-color: rgb(107, 197, 107);
+    color: white;
+    border: none;
+}
+.output{
+    background-color: aliceblue;
+    height: 450px;
+    width: 250px;
+    padding: 10px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.output .total , .avg {
+    height: 70px;
+   
+}
+.output .grade{
+    height: 220px;
+}
+.output h2{
+    border: 1px solid;
+    font-size: 20px;
+    background-color: rgb(184, 216, 176);
+}
+.output div{
+    background-color:white;
+}

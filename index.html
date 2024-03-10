@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade point checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Grade Point Checker</h2>
+        <div class="grade-point-body">
+            <div class="input"> 
+                <fieldset>
+                    <legend>GRADER INPUT</legend>
+                    <label for="english">English</label>
+                    <input class="inp" type="text" name="english" id="engl">
+
+                    <label for="social">Social Studies</label>
+                    <input class="inp" type="text" name="social" id="soc">
+
+                    <label for="science">Science</label>
+                    <input class="inp" type="text" name="science" id="sci">
+
+                    <label for="maths">Maths</label>
+                    <input class="inp" type="text" name="maths" id="mth">
+
+                    <button id="submit" onclick="showResult()">Submit</button>
+                </fieldset>
+            </div>
+            <div class="output">
+                <fieldset>
+                    <legend>RESULT</legend>
+                    <div class="total">
+                        <h2>Total number</h2>
+                        <p id="totalNumberResult"></p>
+                    </div>
+                    <div class="avg">
+                        <h2>Average number</h2>
+                        <p id="avgResult"></p>
+                    </div>
+                    <div class="grade">
+                        <h2>Grade</h2>
+                        <p id="gradeResult"></p>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
